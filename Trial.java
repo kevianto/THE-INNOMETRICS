@@ -5,13 +5,13 @@ import java.util.Scanner;
 
 public class Trial {
     public static void main(String[] args) {
-        //System.out.println("welcome to java");
+        //System.out.println("welcome to java"
         Scanner input = new Scanner(System.in);
         
-	System.out.print("enter year: ");
+	System.out.print("Enter The year You want to get its Months: ");
 	int y=input.nextInt();
 	
-	System.out.print("enter month i.e 1-12: ");
+	System.out.print("Enter The month i.e 1-12: ");
 	int m=input.nextInt();
 	int h=m-1;
 	//checking if a year is leap or not
@@ -23,7 +23,7 @@ public class Trial {
 	}
 	
 	int sum=0;
-	//summing the days in the months before the one u need its calendar
+	//summing the days in the mgit nonths before the one u need its calendar
 		
 	for (int i=0;i<h;i++){
 		
